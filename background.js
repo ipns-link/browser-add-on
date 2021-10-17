@@ -1,4 +1,4 @@
-const resolver = "https://cf-ipfs.com/ipns/";
+const resolver = "https://ipns-link.herokuapp.com/ipns/";
 chrome.webRequest.onBeforeRequest.addListener(
     function(details) {
          return {redirectUrl: details.url.replace(/^https?:\/\/(?:[^/]+\/ipns\/)?/, resolver)};
