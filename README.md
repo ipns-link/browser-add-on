@@ -1,6 +1,6 @@
 # IPNS-Link Browser Extension / Add-on
 
-Redirects requests for `/ipns/*` paths and `*.ipns` domains to the [IPNS-Link front-desk](https://github.com/ipns-link/load-balancer). Tested on Chrome, Edge, Firefox.
+Redirects requests for `/ipns/*` paths and `*.ipns` domains to the [IPNS-Link front-desk](https://github.com/ipns-link/load-balancer). GET requests for `/ipfs/*` path is forwarded to Cloudflare's subdomain gateway. Tested on Chrome, Edge, Firefox.
 
 ## Table of Contents  
 [![tocgen](https://img.shields.io/badge/Generated%20using-tocgen-blue)](https://github.com/SomajitDey/tocgen)  
@@ -45,4 +45,6 @@ https://example.ipns
 
 http://example.ipns/path
 
-https://example.com/ipns/path
+https://example.com/ipns/path
+
+https://example.com/ipfs/path

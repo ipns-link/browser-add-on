@@ -8,6 +8,7 @@
     "webRequest",
     "*://*.ipns/*",
     "*://*/ipns/*",
+    "*://*/ipfs/*",
     "webRequestBlocking"
   ]
 }
